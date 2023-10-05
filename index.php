@@ -83,7 +83,7 @@
         $('#buscar').click(function(){
             dni=$('#documento').val();
             $.ajax({
-            url:'Controlador/consultaDNI.php',
+            url:'consultaDNI.php',
             type:'post',
             data: 'dni='+dni,
             dataType:'json',
